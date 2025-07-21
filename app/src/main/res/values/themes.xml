@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Z_AE1_GUERRERO_GUERRERO_JUAN_DANIEL" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
