@@ -13,11 +13,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Surface(
-                modifier = Modifier.fillMaxSize(),
-                color = MaterialTheme.colorScheme.background
-            ) {
-                OpenGLScreen()
+            Surface(modifier = Modifier.fillMaxSize()) {
+                OpenGLScreen() // usa el nuevo archivo Kotlin
             }
         }
     }
